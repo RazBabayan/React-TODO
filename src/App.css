@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+/* google fonts // poppins */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:wght@200;300;400;500&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    padding-top: 256px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-block{
+    width: calc(100% - 160px);
+    margin: 0px 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-contain{
+    margin-top: 140px;
 }
 
-.App-link {
-  color: #61dafb;
+.first-text{
+  color: #ACACAC;
+  font-size: 24px;
+  font-style: medium;
+  margin-left: 478px; 
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.second-text{
+  color:#666666;
+  font-size: 36px;
+  margin-left: 389px; 
 }
