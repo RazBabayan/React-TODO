@@ -42,12 +42,13 @@ function App() {
         <div className="hide-block">
           <input
             type="checkbox"
+            className="hide-check"
             onChange={() => setCompleted(!completed)}
             checked={completed}
           />
           <span className="hide-text">Hide completed</span>
         </div>
-      ) : null}
+      ) : <div className="hidden-div"> </div>}
       <AddBlock handleClick={handleClick} />
 
       {items.length ? (

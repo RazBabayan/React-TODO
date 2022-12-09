@@ -6,6 +6,7 @@ const Popup = (props, onClose) => {
     <div onClick={props.onClose} className="popup">
       <div onClick={(e) => e.stopPropagation()} className="popup-inner">
         <p className="popup-text">Are you sure you want to delete?</p>
+        <br></br>
         <button className="popup-yes" onClick={props.onDelete}>
           <b>Yes</b>
         </button>

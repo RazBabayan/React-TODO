@@ -36,7 +36,7 @@ function AddBlock({ handleClick }) {
       <button className="but" onClick={() => onClick(value)}>
         Add
       </button>
-      {!isValid ? <p className="error-text">error</p> : null}
+      {!isValid ? <p className="error-text">Task content can contain max 54 characters</p> : null}
     </div>
   );
 }
